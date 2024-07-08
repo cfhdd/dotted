@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Main.css">
+</head>
+<body>
+    <div style="text-align: center">
+        <input type="text" id="timeValue" value="30" readonly>
+        <input type="text" id="timeOut" value="0" readonly>
+        <br>
+        <button type="button" onclick="startTimer()">开始</button> 
+        <button type="button" onclick="stopTimer()">暂停</button> 
+        <button type="button" onclick="resetTimer()">重置</button>
+
+    <div class="main">
+        <button class="clean">clean</button>
+        <button class="down">color<input type="color" id="color"></button>
+        <canvas width="5000" height="5000"></canvas>
+    </div>
+
+    <script src="javaScript/Main.js"></script>
+
+</body>
+</html>
